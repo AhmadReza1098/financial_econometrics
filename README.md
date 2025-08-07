@@ -1,6 +1,17 @@
 
-#  Financial Econometrics: A Comprehensive Guide in R
+# 📈 Asset Pricing Models 
+This repository contains an implementation of core asset pricing models and empirical finance techniques using R. 
 
-This repository contains structured, week-by-week implementations of key models and concepts in **Financial Econometrics** using the R programming language. It follows a practical approach to modeling financial time series, asset pricing, and risk management.
+It includes analysis of Indian stock data, portfolio construction, CAPM beta estimation, Arbitrage Pricing Theory (APT), and tests for the Efficient Market Hypothesis (EMH).
 
-Whether you're a student, researcher, or finance enthusiast, this repository offers ready-to-run R code, examples, and documentation for hands-on learning.
+## 🧰 Tools & Libraries
+The following R packages are used:
+- `quantmod` — for downloading financial data from Yahoo Finance -
+-  `PerformanceAnalytics` — for portfolio return analysis and CAPM metrics -
+- `tidyverse` — for data manipulation -
+-  `tseries` — for time-series testing like ADF -
+-   `ggplot2` — for data visualization -
+-    `gridExtra` — to arrange multiple plots -
+-    `readxl` — to import Excel files -
+-     `lmtest` — for model diagnostics -
+-  `car` — for linear hypothesis testing in regression
